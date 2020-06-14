@@ -1,0 +1,2 @@
+Hello, world!
+This site was created with Sparksammy's Static Blog generator. Sysadmin: to get started, config the blog in the Python script, rename this post and edit it! Remember: the top line is always the title!
