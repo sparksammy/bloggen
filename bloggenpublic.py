@@ -17,8 +17,10 @@ for filename in postsfolder:
     ogt = og.readline()
     ogc = og.read().replace('\n','').replace(ogt,'')
     blog.write('<hr/>')
+    blog.write('<div class="post">')
     blog.write('<h2>' + ogt + '</h2>')
     blog.write('<p>' + ogc + '</p>')
+    blog.write('</div>')
     blog.write(adcode);
     og.close()
 blog.write('<hr/>')
